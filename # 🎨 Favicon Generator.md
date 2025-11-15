@@ -4,13 +4,13 @@ A free, fast, and easy-to-use online tool to generate all required favicon forma
 
 ## ✨ Features
 
-- 📁 Upload any image (PNG, JPG, SVG)
-- 🔄 Generates all required sizes automatically
-- 📦 Downloads all files instantly
-- 📝 Provides ready-to-use HTML code
-- 🎨 Clean, modern UI
-- 📱 Fully responsive
-- 🚀 No server required - runs entirely in the browser
+- Upload any image (PNG, JPG, SVG)
+- Generates all required sizes automatically
+- Downloads all files instantly
+- Provides ready-to-use HTML code
+- Clean, modern UI
+- Fully responsive
+- No server required - runs entirely in the browser
 
 ## 🖼️ Generated Files
 
@@ -54,24 +54,9 @@ This tool is 100% client-side, so you can deploy it anywhere:
 - **Vercel**: Import from GitHub
 - **Any static host**: Upload the files
 
-## 📝 License
-
-MIT License - feel free to use for personal or commercial projects!
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first.
-
-## 👨‍💻 Author
-
-Made with ❤️ by [HasteSolutions](https://hastesolutions.com)
-
 ## 🔗 Links
 
 - [Live Demo](#) (add your deployed URL)
-- [Report Bug](https://github.com/hastesolutions/favicon-generator/issues)
-- [Request Feature](https://github.com/hastesolutions/favicon-generator/issues)
-
----
 
 ⭐ Star this repo if you found it helpful!
+
