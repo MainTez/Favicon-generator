@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online favicon generator - Convert any image to all required favicon formats instantly">
+    <title>Favicon Generator - Free Online Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🎨 Favicon Generator</h1>
+            <p class="subtitle">Convert any image to all required favicon formats instantly</p>
+        </header>
+        
+        <div class="upload-section">
+            <input type="file" id="fileInput" accept="image/*" style="display:none">
+            <button class="btn-upload" onclick="document.getElementById('fileInput').click()">
+                📁 Choose Image
+            </button>
+            <p class="file-info" id="fileInfo">No file selected</p>
+        </div>
+        
+        <div class="logo-preview" id="logoPreview" style="display:none;">
+            <img id="previewImg" alt="Preview">
+        </div>
+        
+        <div class="instructions">
+            <h3>📋 How to use:</h3>
+            <ol>
+                <li>Click "Choose Image" and select your logo (PNG, JPG, SVG)</li>
+                <li>Click "Generate Favicons" to create all sizes</li>
+                <li>All files download automatically to your Downloads folder</li>
+                <li>Move files to your website root directory</li>
+                <li>Add the HTML code to your &lt;head&gt; section</li>
+                <li>Hard refresh (Ctrl+Shift+R) to see your favicon!</li>
+            </ol>
+        </div>
+        
+        <button class="btn-generate" id="generateBtn" onclick="generateFavicons()" disabled>
+            ✨ Generate Favicons
+        </button>
+        
+        <div id="status" class="status"></div>
+        <div id="preview" class="preview"></div>
+        
+        <div class="code-section" id="codeSection" style="display:none;">
+            <h3>📝 Add this to your HTML &lt;head&gt;:</h3>
+            <pre><code id="htmlCode"></code></pre>
+            <button class="btn-copy" onclick="copyCode()">📋 Copy Code</button>
+        </div>
+        
+        <canvas id="canvas"></canvas>
+        
+        <footer class="footer">
+            <p>Made with ❤️ by <a href="https://hastesolutions.com" target="_blank">HasteSolutions</a></p>
+            <p><a href="https://github.com/hastesolutions/favicon-generator" target="_blank">View on GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
