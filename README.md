@@ -56,8 +56,11 @@ This tool is 100% client-side, so you can deploy it anywhere:
 
 ## 🔗 Links
 
-- [Live Demo] (maintez.github.io/Favicon-generator/
+## 🔗 Links
+
+- [Live Demo](https://maintez.github.io/Favicon-generator/)
 
 ⭐ Star this repo if you found it helpful!
+
 
 
